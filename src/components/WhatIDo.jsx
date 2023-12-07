@@ -2,7 +2,7 @@ import React from 'react'
 
 const WhatIDo = () => {
   return (
-    <div>WhatIDo</div>
+    <div></div>
   )
 }
 
