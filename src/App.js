@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+// import React, { useEffect, useState } from 'react';
+// import { useMediaQuery } from '@react-hook/media-query';
 
-function App() {
+import About from "./components/About";
+import ClientReview from "./components/ClientReview";
+import ContactMe from "./components/ContactMe";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import MyPortfolio from "./components/MyPortfolio";
+import ReadyToWork from "./components/ReadyToWork";
+import WhatIDo from "./components/WhatIDo";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=' bg-bgLight dark:bg-bgDark text-textClrLight dark:text-textClrDark px-32'>
+        <Hero />
+        <About />
+        <WhatIDo />
+        <MyPortfolio />
+        <ClientReview />
+        <ReadyToWork />
+        <ContactMe />
+        <Footer />
+
     </div>
   );
-}
+};
 
 export default App;
