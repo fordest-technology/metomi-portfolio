@@ -16,7 +16,6 @@ const Hero = () => {
   return (
     <div className="">
       <Nav />
-
       <section className=" mt-32 pb-40 flex flex-row items-center gap-48 mx-auto justify-center max-w-5xl ">
         <div>
           <h4 className=" text-textClrLight dark:text-textClrDark font-light text-4xl">
