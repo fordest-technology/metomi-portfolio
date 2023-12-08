@@ -8,7 +8,7 @@ module.exports = {
           bgLight: '#fefeff',
           bgDark: '#000',
           primaryClr: 'rgba(133, 78, 255, 1)',
-          textClrLight: 'rgba(62, 62, 62, 1)',
+          textClrLight: '#3E3E3E',
           textClrDark: ' rgba(255, 255, 255, 1)',
           bttnTxtClr: 'rgba(255, 255, 255, 1)',
           boxClrLight: 'rgba(255, 255, 255, 1)',

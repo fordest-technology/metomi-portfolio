@@ -1,19 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,700;0,800;1,500&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-* {
-    font-family: "Exo 2", sans-serif;
+body {
+    font-family: "Exo", sans-serif;
+    @apply bg-white dark:bg-black
 }
 
 .rounded-gradient {
-    width: 971px;
-    height: 971px;
-    flex-shrink: 0;
+    width: 300px;
+    height: 300px;
+    top: 0px;
+    right: 0;
+    left: 0;
     border-radius: 971px;
     opacity: 0.4;
+    position: sticky;
     background: linear-gradient(180deg,
             rgba(43, 174, 248, 0.29) 0%,
             rgba(185, 84, 248, 0.29) 28.65%,
@@ -21,6 +23,43 @@
             rgba(30, 79, 252, 0.29) 69.27%,
             rgba(22, 255, 255, 0.29) 100%);
     filter: blur(106.93832397460938px);
+    z-index: 0;
+
+
+}
+
+.rounded-gradientbig {
+    width: 300px;
+    height: 300px;
+    border-radius: 971px;
+    /* opacity: 0.1; */
+    position: absolute;
+    background: linear-gradient(180deg,
+            rgba(43, 174, 248, 0.29) 0%,
+            rgba(185, 84, 248, 0.29) 28.65%,
+            rgba(116, 153, 248, 0.29) 46.88%,
+            rgba(30, 79, 252, 0.29) 69.27%,
+            rgba(22, 255, 255, 0.29) 100%);
+    filter: blur(106.93832397460938px);
+    z-index: 0;
+
+}
+
+.rounded-gradientmedium {
+    width: 550px;
+    height: 550px;
+    border-radius: 971px;
+    opacity: 0.4;
+    position: absolute;
+    background: linear-gradient(180deg,
+            rgba(43, 174, 248, 0.29) 0%,
+            rgba(185, 84, 248, 0.29) 28.65%,
+            rgba(116, 153, 248, 0.29) 46.88%,
+            rgba(30, 79, 252, 0.29) 69.27%,
+            rgba(22, 255, 255, 0.29) 100%);
+    filter: blur(106.93832397460938px);
+    z-index: 0;
+
 }
 
 .btn {
@@ -35,5 +74,21 @@
 }
 
 .btn:hover {
-    box-shadow: 0px 6px 34px 0px #E0ECFF;
+    box-shadow: -1px 6px 22px -2px #E0ECFF;
+}
+
+.btn2 {
+    display: flex;
+    width: 192px;
+    height: 50px;
+    padding: 15px 67px 14px 68px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #854EFF;
+    color: #854EFF;
+}
+
+.btn2:hover {
+    box-shadow: -1px 6px 22px -2px #E0ECFF;
 }

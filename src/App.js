@@ -12,7 +12,7 @@ import WhatIDo from "./components/WhatIDo";
 
 const App = () => {
   return (
-    <div className=' bg-bgLight dark:bg-bgDark text-textClrLight dark:text-textClrDark px-32'>
+    <div className=' bg-bgLight dark:bg-bgDark text-textClrLight dark:text-textClrDark  px-6 w-full justify-center mx-auto'>
         <Hero />
         <About />
         <WhatIDo />
