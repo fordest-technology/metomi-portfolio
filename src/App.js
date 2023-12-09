@@ -13,18 +13,15 @@ import WhatIDo from "./components/WhatIDo";
 const App = () => {
   return (
     <div className=' bg-bgLight dark:bg-bgDark text-textClrLight dark:text-textClrDark px-32'>
-      
-        <Hero />
-        <About />
-        <WhatIDo />
-        <MyPortfolio />
-        <ClientReview />
-        <ReadyToWork />
-        <ContactMe />
-        <Footer />
-
+      <Hero />
+      <About />
+      <WhatIDo />
+      <MyPortfolio />
+      <ClientReview />
+      <ReadyToWork />
+      <ContactMe />
+      <Footer />
     </div>
-  );
-};
-
+  )
+}
 export default App;
