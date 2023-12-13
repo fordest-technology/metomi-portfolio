@@ -24,13 +24,13 @@ const Nav = () => {
         <p className='p-4'><a href='#skills' className='  text-textClrLight dark:text-textClrDark font-medium hover:no-underline hover:text-primaryClr '> Portfolio  </a></p>
         <p className='p-4'><a href='#skills' className='  text-textClrLight dark:text-textClrDark font-medium  hover:no-underline hover:text-primaryClr '> Pricing  </a></p>
         <p className='p-4'><a href='#projects' className=' text-textClrLight dark:text-textClrDark font-medium hover:no-underline hover:text-primaryClr'> Projects </a></p>
-  
+          
+      <button className='btn md:w-5 whitespace-nowrap lg:w-10 max-[900px]:hidden'>
+        Hire Me
+      </button>
       </div>
 
 
-      <button className='btn'>
-        Hire Me
-      </button>
       <div onClick={handleNav} className='block md:hidden'>
         {!nav ? <AiOutlineMenu className='cursor-pointer' size={25} /> : <AiOutlineClose className='cursor-pointer' size={25} />}
       </div>
@@ -43,6 +43,10 @@ const Nav = () => {
         <li className='p-4'><a href='#Project' className=' hover:no-underline hover:text-primaryClr hover:text-[15px]'> Projects </a></li>
                 <li className='p-4'><a href='#skills' className=' hover:no-underline hover:text-primaryClr hover:text-[15px]'> Skills </a></li>
       </ul>
+      
+      <button className='btn'>
+        Hire Me
+      </button>
       </div>
     </div>
     </>
