@@ -5,7 +5,7 @@ import {IoMdCall, IoMdMail, IoMdLocate} from "react-icons/io";
 
 import heroImage from "../Images/heroSectionInage.png";
 
-// const CONTACY_INFO [
+// const CONTACY_INFO = [
 //   {
 //     location: "Ekiti Sytate",
 
@@ -14,9 +14,9 @@ import heroImage from "../Images/heroSectionInage.png";
 
 const Hero = () => {
   return (
-    <div className="">
+    <div className=" ml-0 mr-0">
      
-      <section className=" md:mt-32 md:pb-40 flex flex-col md:flex-row items-center lg:gap-32 md:gap-20 mx-auto justify-center gap-24 mt-24 3xl:max-w-6xl ">
+      <section className=" md:mt-32 md:pb-40 flex flex-col md:flex-row items-center lg:gap-32 md:gap-20  justify-center gap-24 mt-4 3xl:max-w-6xl ">
           <div className="roundeds  w-20 opacity-50"></div>
         <div className=" ">
           <h4 className=" text-textClrLight dark:text-textClrDark font-light lg:text-4xl md:text-2xl sm:text-xl text-lg">
