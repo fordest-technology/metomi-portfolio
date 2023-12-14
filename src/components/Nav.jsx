@@ -12,7 +12,7 @@ const Nav = () => {
   return (
     <>
     <div className=' select-none flex justify-between items-center h-16 mx-auto w-10/12  px-4 text-base  dark:font-thin font-light  z-50
-     first-letter text-textClrLight dark:text-textClrDark active:text-primaryClr fixed top-0 left-0 right-0 backdrop-blur-20 backdrop:bg-slate-400 '>
+     first-letter text-textClrLight dark:text-textClrDark fixed dark:bg-black bg-textClrDark active:text-primaryClr  top-0 left-0 right-0 backdrop-blur-20 backdrop:bg-slate-400 '>
       <div><img src={Logo} alt="it is a logo" /></div>
       <div className=' hidden md:flex relative'>
         

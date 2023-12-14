@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "./Nav";
+
 import {IoMdCall, IoMdMail, IoMdLocate} from "react-icons/io";
 
 
@@ -15,7 +15,7 @@ import heroImage from "../Images/heroSectionInage.png";
 const Hero = () => {
   return (
     <div className="">
-      <Nav />
+     
       <section className=" md:mt-32 md:pb-40 flex flex-col md:flex-row items-center lg:gap-32 md:gap-20 mx-auto justify-center gap-24 mt-24 3xl:max-w-6xl ">
           <div className="roundeds  w-20 opacity-50"></div>
         <div className=" ">

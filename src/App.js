@@ -9,10 +9,14 @@ import Hero from "./components/Hero";
 import MyPortfolio from "./components/MyPortfolio";
 import ReadyToWork from "./components/ReadyToWork";
 import WhatIDo from "./components/WhatIDo";
+import Nav from "./components/Nav";
 
 const App = () => {
   return (
-    <div className=' bg-bgLight dark:bg-bgDark text-textClrLight dark:text-textClrDark justify-center mx-auto w-full'>
+
+    <div className=' bg-bgLight dark:bg-bgDark overflow-hidden'>
+          <Nav />
+           <div className=" text-textClrLight dark:text-textClrDark justify-center mx-auto w-full overflow-hidden">
         <Hero />
         <About />
         <WhatIDo />
@@ -21,8 +25,10 @@ const App = () => {
         <ReadyToWork />
         <ContactMe />
         <Footer />
+           </div>
 
     </div>
+
   );
 };
 
